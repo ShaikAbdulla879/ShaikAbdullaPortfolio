@@ -1,0 +1,19 @@
+/* Transit Grid reinforcement: ownable connector traces, dossier evidence frames, and strong Shaik / Abdulla brand stamps. */
+
+.brand-lockup img { width: 45px; height: 45px; object-fit: contain; }
+.brand-name { font-size: 18px; }
+
+.hero-brand-stamp { display: grid; grid-template-columns: 25px 1fr auto; align-items: center; gap: 8px; width: min(100%, 330px); margin: 14px 0 0; padding: 7px 0; border-top: 1px solid #bccbd2; border-bottom: 1px solid #bccbd2; }
+.hero-brand-stamp img { width: 22px; height: 22px; }.hero-brand-stamp span { display: flex; flex-direction: column; gap: 2px; }.hero-brand-stamp small { color: #667786; font-family: "IBM Plex Mono", monospace; font-size: 7px; font-weight: 600; letter-spacing: .1em; }.hero-brand-stamp b { color: #172333; font-size: 10px; letter-spacing: .04em; }.hero-brand-stamp i { display: inline-flex; align-items: center; justify-content: center; width: 19px; height: 19px; border: 1px solid #e9553d; border-radius: 50%; color: #e9553d; font-family: "IBM Plex Mono", monospace; font-size: 7px; font-style: normal; }
+.hero-manifesto { max-width: 430px; margin: 13px 0 0; padding-left: 13px; border-left: 2px solid #e9553d; color: #5d7181; font-family: "Source Serif 4", serif; font-size: 14px; font-style: italic; line-height: 1.35; }
+
+.section-rail { position: relative; overflow: hidden; }.section-rail > * { position: relative; z-index: 1; }.section-rail::before { content: ""; position: absolute; z-index: 2; top: 145px; left: calc(50% - 4px); width: 8px; height: 8px; border: 2px solid #e9553d; border-radius: 50%; background: inherit; }.section-rail::after { content: ""; position: absolute; top: 153px; bottom: 0; left: 50%; width: 1px; background: linear-gradient(180deg,#e9553d 0 28%,rgba(233,85,61,.11) 68%,transparent 100%); }
+
+.project-stamp-01 { border-color: #e9553d!important; color: #b63c2d!important; }.project-stamp-02 { border-color: #647d8c!important; color: #395a6b!important; }.project-stamp-03 { border-color: #b47b4a!important; color: #8e5a2c!important; }
+.project-visual::before { content: ""; position: absolute; z-index: 2; top: 16px; left: 16px; width: 42px; height: 42px; border-top: 2px solid #e9553d; border-left: 2px solid #e9553d; }.project-visual::after { content: ""; position: absolute; z-index: 2; top: 53px; left: 53px; width: calc(100% - 94px); height: 1px; background: linear-gradient(90deg,#e9553d 0 8%,rgba(233,85,61,.08) 8% 100%); transform: rotate(-13deg); transform-origin: left; }.project-visual figcaption { z-index: 3; display: flex; flex-direction: column; gap: 3px; padding: 8px 10px; }.project-visual figcaption span { color: #ff816e; font-size: 7px; }.project-visual figcaption b { font-size: 8px; font-weight: 500; }
+
+.footer-brand { gap: 11px; }.footer-brand img { width: 42px; height: 42px; }.footer-brand strong { font-size: 15px; }
+
+.dark .hero-brand-stamp { border-color: #3c5665; }.dark .hero-brand-stamp small { color: #9fb5bd; }.dark .hero-brand-stamp b { color: #eaf3f6; }.dark .hero-manifesto { color: #b3c6cd; }.dark .section-rail::before { border-color: #ff755f; }.dark .section-rail::after { background: linear-gradient(180deg,#ff755f 0 28%,rgba(255,117,95,.13) 68%,transparent 100%); }.dark .project-stamp-01 { border-color: #ff755f!important; color: #ff9c8d!important; }.dark .project-stamp-02 { border-color: #7fa5b4!important; color: #afd1dc!important; }.dark .project-stamp-03 { border-color: #d6a76d!important; color: #f1c893!important; }
+
+@media (max-width: 650px) { .brand-lockup img { width: 34px; height: 34px; }.brand-name { font-size: 15px; }.hero-brand-stamp { grid-template-columns: 23px 1fr auto; width: 100%; }.section-rail::before { top: 117px; }.section-rail::after { top: 125px; }.footer-brand img { width: 36px; height: 36px; }.footer-brand strong { font-size: 13px; } }
